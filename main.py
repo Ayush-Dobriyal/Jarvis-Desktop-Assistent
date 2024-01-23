@@ -10,7 +10,9 @@ import pygame
 import os
 import threading
 import sys
+from Clap import MainClapExe
 
+MainClapExe()
 pygame.init()
 
 engine = pyttsx3.init()
